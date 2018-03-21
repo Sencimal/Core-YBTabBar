@@ -17,9 +17,9 @@
 
 /* Begin PBXFileReference section */
 		0F085D3B7EA524CFA3B827EE /* Pods-Core-YBTabBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core-YBTabBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Core-YBTabBar_Tests/Pods-Core-YBTabBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		34D883C7BEE2139BE84FA5FC /* Core-YBTabBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "Core-YBTabBar.podspec"; path = "../Core-YBTabBar.podspec"; sourceTree = "<group>"; };
+		34D883C7BEE2139BE84FA5FC /* Core-YBTabBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "Core-YBTabBar.podspec"; path = "../Core-YBTabBar.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4D8FF6C9F6AD36291B73ACAD /* Pods_Core_YBTabBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Core_YBTabBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FC2D1EC924F7B3490803884 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5FC2D1EC924F7B3490803884 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -30,7 +30,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		DA007BD7900A10E813035F32 /* Pods-Core-YBTabBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core-YBTabBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Core-YBTabBar_Tests/Pods-Core-YBTabBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E5D467F214BFF5D4614AA752 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E5D467F214BFF5D4614AA752 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +151,7 @@
 				ORGANIZATIONNAME = Sencimal;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = G79ZR996J3;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -338,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA007BD7900A10E813035F32 /* Pods-Core-YBTabBar_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = G79ZR996J3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -361,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F085D3B7EA524CFA3B827EE /* Pods-Core-YBTabBar_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = G79ZR996J3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

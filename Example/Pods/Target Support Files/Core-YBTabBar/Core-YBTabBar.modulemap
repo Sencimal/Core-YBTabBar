@@ -1,0 +1,6 @@
+framework module Core_YBTabBar {
+  umbrella header "Core-YBTabBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

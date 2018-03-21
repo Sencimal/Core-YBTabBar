@@ -1,0 +1,6 @@
+framework module Pods_Core_YBTabBar_Tests {
+  umbrella header "Pods-Core-YBTabBar_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

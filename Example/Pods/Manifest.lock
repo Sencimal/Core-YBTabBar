@@ -1,0 +1,16 @@
+PODS:
+  - Core-YBTabBar (0.1.0)
+
+DEPENDENCIES:
+  - Core-YBTabBar (from `../`)
+
+EXTERNAL SOURCES:
+  Core-YBTabBar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Core-YBTabBar: 039ed4fe2070f8771dbb6d2dfc29553db328a424
+
+PODFILE CHECKSUM: aa4f746f7b015865ff460aadc58aac0d456db51e
+
+COCOAPODS: 1.4.0.rc.1
