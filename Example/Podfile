@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Core-YBTabBar_Tests' do
+  pod 'Core-YBTabBar', :path => '../'
+  
+  
+end
